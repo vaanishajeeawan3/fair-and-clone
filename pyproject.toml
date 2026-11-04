@@ -1,0 +1,15 @@
+[project]
+name = "fair-share"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+
+[tool.mypy]
+strict = true
+
+[tool.pytest.ini_options]
+
+pythonpath = ["."]
+testpaths = ["tests"]
